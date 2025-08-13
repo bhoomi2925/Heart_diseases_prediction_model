@@ -59,7 +59,7 @@ progress_bar = st.progress(0)
 placeholder = st.empty()
 placeholder.subheader('Predicting Heart Disease....')
 place = st.empty()
-place.image('https://cdn.prod.website-files.com/6735d9c156803926ec21b042/6790f85fc90d3c619a64f3ea_Arrhythmia-Mechanism-gif.gif',width=80)
+place.image('https://content.presentermedia.com/files/animsp/00005000/5747/cardiogram_heart_working_lg_wm.gif',width=80)
 
 
 for i in range(100):
