@@ -36,7 +36,7 @@ df = pd.read_csv(url)
 
 
 st.sidebar.header('Select Features to Predict Heart Disease')
-st.sidebar.image('https://media.tenor.com/NRDsqH7bcmgAAAAM/herz-puls.gif')
+st.sidebar.image('https://cdn.prod.website-files.com/6735d9c156803926ec21b042/6790f85fc90d3c619a64f3ea_Arrhythmia-Mechanism-gif.gif')
 
 random.seed(42)
 
