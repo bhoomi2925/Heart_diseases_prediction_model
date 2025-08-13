@@ -24,7 +24,7 @@ In this project, I analyzed a heart disease dataset with appropriate preprocessi
 
 st.write(data)
 
-st.image('https://cdn-images-1.medium.com/v2/resize:fit:1600/1*CQXQxHDKi0Q2IpdjhufEcw.jpeg')
+st.image('https://i0.wp.com/asianheartinstitute.org/wp-content/uploads/2024/11/Understanding-How-Heart-Disease-Impacts-Your-Body.jpg?fit=1572%2C917&ssl=1')
 
 with open ('heart_diseases_pred.pkl','rb')as f:
     chatgpt = pickle.load(f)
@@ -59,7 +59,7 @@ progress_bar = st.progress(0)
 placeholder = st.empty()
 placeholder.subheader('Predicting Heart Disease....')
 place = st.empty()
-place.image('https://i.pinimg.com/originals/00/1c/41/001c41aa841b8d348247b229a961e9a4.gif',width=80)
+place.image('https://cdn.prod.website-files.com/6735d9c156803926ec21b042/6790f85fc90d3c619a64f3ea_Arrhythmia-Mechanism-gif.gif',width=80)
 
 
 for i in range(100):
