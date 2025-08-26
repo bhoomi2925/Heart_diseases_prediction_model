@@ -26,6 +26,7 @@ st.write(data)
 
 st.image('https://i0.wp.com/asianheartinstitute.org/wp-content/uploads/2024/11/Understanding-How-Heart-Disease-Impacts-Your-Body.jpg?fit=1572%2C917&ssl=1')
 
+
 with open ('heart_diseases_pred.pkl','rb')as f:
     chatgpt = pickle.load(f)
 
@@ -36,7 +37,8 @@ df = pd.read_csv(url)
 
 
 st.sidebar.header('Select Features to Predict Heart Disease')
-st.sidebar.image(''https://cdn.prod.website-files.com/6735d9c156803926ec21b042/6790f85fc90d3c619a64f3ea_Arrhythmia-Mechanism-gif.gif'')
+st.sidebar.image('https://cdn.prod.website-files.com/6735d9c156803926ec21b042/6790f85fc90d3c619a64f3ea_Arrhythmia-Mechanism-gif.gif')
+
 
 random.seed(42)
 
@@ -60,6 +62,7 @@ placeholder = st.empty()
 placeholder.subheader('Predicting Heart Disease....')
 place = st.empty()
 place.image('https://content.presentermedia.com/files/animsp/00005000/5747/cardiogram_heart_working_lg_wm.gif',width=80)
+
 
 
 for i in range(100):
